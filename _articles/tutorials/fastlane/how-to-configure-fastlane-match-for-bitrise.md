@@ -12,7 +12,7 @@ in your [bitrise.io](https://www.bitrise.io/) build you only have to do three th
    you register on [bitrise.io](https://www.bitrise.io/)) and the `match` repository.
    You can find more info [in this guide](/faq/adding-projects-with-submodules/).
 2. Add an environment variable `MATCH_PASSWORD`, as
-   [described in ](https://github.com/fastlane/fastlane/tree/master/match#encryption-password)`[match](https://github.com/fastlane/fastlane/tree/master/match#encryption-password)`['s docs](https://github.com/fastlane/fastlane/tree/master/match#encryption-password),
+   [described in ](https://github.com/fastlane/fastlane/tree/master/match#encryption-password) [match](https://github.com/fastlane/fastlane/tree/master/match#encryption-password) ['s docs](https://github.com/fastlane/fastlane/tree/master/match#encryption-password),
    to specify the `Encryption password` you used for `match`.
    On [bitrise.io](https://www.bitrise.io/) you should add this as a `Secret Environment Variable`,
    in the [Workflow Editor](http://devcenter.bitrise.io/docs/add-your-first-step-to-your-apps-workflow).
